@@ -1,0 +1,61 @@
+name: mytekmobile
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages
+  http: ^1.1.0
+  intl: ^0.19.0
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  flutter_native_splash: ^2.4.1
+  smooth_page_indicator: ^1.1.0
+
+  # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+
+  # State Management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/background.png
+    - assets/Illustration.png
+    - assets/myteklogo.png
+    - assets/logos/google.png
+    - assets/logos/facebook.png
+    - assets/images/on_boarding_images/onboardingimage1.gif
+    - assets/images/on_boarding_images/onboardingimage2.gif
+    - assets/images/on_boarding_images/onboardingimage3.gif
+    - assets/images/animations/verify_email.gif
+    - assets/images/animations/email_success.gif
+    - assets/images/animations/verify_email1.gif
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+          weight: 700
+          style: italic
